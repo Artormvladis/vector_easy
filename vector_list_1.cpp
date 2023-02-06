@@ -9,6 +9,16 @@ void itc_rev_list(vector <int> &mass){
     }
   }
 }
+void itc_rev_par_list(vector <int> &mass){
+  if (mass.size()>0){
+    int a;
+    for(int i=0; i<mass.size()-1; i+=2){
+      a=mass[i];
+      mass[i]=mass[i + 1];
+      mass[i + 1]=a;
+    }
+  }
+}
 void itc_rshift_list(vector <int> &mass){
   if (mass.size()>0){
   int a= mass[mass.size()-1];
