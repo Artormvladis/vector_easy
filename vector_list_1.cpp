@@ -21,8 +21,9 @@ void itc_rshift_list(vector <int> &mass){
         a=mass[mass.size()];
         for(int i=mass.size()-1; i>0; i--){
             mass[i]=mass[i-1];
-            mass[0]=a;
-        }}}
+        }
+        mass[0]=a;
+    }}
 void itc_super_shift_list(vector <int> &mass, int n){
     if(mass.size()>0){
         if(n>0){
