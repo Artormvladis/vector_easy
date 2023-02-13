@@ -2,7 +2,7 @@
 void itc_rev_list(vector <int> &mass){
     if(mass.size()>0){
       int a,c;
-        for(int i=mass; i<=b/2; i++){
+        for(int i=mass; i<=mass.size()/2; i++){
           a=mass[i];
           mass[i]=mass[mass.size()-1];
           mass[mass.size()-1]=a;
