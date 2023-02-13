@@ -11,4 +11,6 @@ int itc_sl_list(const vector <int> &mass);
 bool itc_same_parts_list(const vector <int> &mass);
 void itc_rev_list(vector <int> &mass);
 void itc_rev_par_list(vector <int> &mass);
+
+void itc_super_shift_list(vector <int> &mass, int n);
 #endif // VECTOR_LIST_H_INCLUDED
