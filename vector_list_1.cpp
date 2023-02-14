@@ -35,7 +35,7 @@ void itc_super_shift_list(vector <int> &mass, int n){
             for(int i=0; i<n%mass.size()); i++){
                 int a;
                 a=mass[0];
-                for(int i1=1; i<mass.size(); i1++){
+                for(int i1=1; i1<mass.size(); i1++){
                     mass[i1-1]=mass[i1];
                     mass[mass.size()-1]=a;
                 }}}}}
